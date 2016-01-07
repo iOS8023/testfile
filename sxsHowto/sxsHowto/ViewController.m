@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view = nil;
     // Do any additional setup after loading the view, typically from a nib.
+    //that is good
 }
 
 - (void)didReceiveMemoryWarning {
